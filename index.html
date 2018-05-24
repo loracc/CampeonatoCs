@@ -48,10 +48,11 @@
     
     
     
+    <div class="formulario">
     
-    
+    <div class="formulario-child">
     <div class="form" align="center">
-        <div><h2 style="text-align: center"><strong>INSCREVA-SE!</strong></h2></div>
+        <div><h2 style="text-align: center"><strong>REPRESENTANTE</strong></h2></div>
         <div>
             <form id="form" method="POST" accept-charset="UTF-8">
         <div>
@@ -65,6 +66,10 @@
         <div>         
           <input required type="text" id="telefone" name="telefone" placeholder="Telefone*" maxlength="12" size="35"/>
         </div>
+                
+        <div>         
+          <input required type="text" id="cpf" name="cpf" placeholder="CPF | RA*" maxlength="12" size="35"/>
+        </div>
 
         <div>
         <p class="campo">Todos os campos marcados com <span style="color: red;">*</span> são obrigatórios.</p>
@@ -72,7 +77,62 @@
         </div>
             </form>
         </div>    
-    </div> 
+    </div>
+    </div>
+        
+        <div class="formulario-child">
+    <div class="form" align="center">
+        <div><h2 style="text-align: center"><strong>TIME</strong></h2></div>
+        <div>
+            <form id="form" method="POST" accept-charset="UTF-8">
+        <div>
+          <input required type="text" id="nome" name="nome" placeholder="Nome do time*" size="35" />
+        </div>
+
+       
+        <div>         
+          <input required type="text" id="cpf" name="cpf" placeholder="Logo do time*" maxlength="12" size="35"/>
+        </div>
+
+        <div>
+        <p class="campo">Todos os campos marcados com <span style="color: red;">*</span> são obrigatórios.</p>
+          <input class="button" value="ENVIAR" id="bloc" type="submit" name="sendmailform"/>
+        </div>
+            </form>
+        </div>    
+    </div>
+    </div>
+        
+        <div class="formulario-child">
+    <div class="form" align="center">
+        <div><h2 style="text-align: center"><strong>Jogadores</strong></h2></div>
+        <div>
+            <form id="form" method="POST" accept-charset="UTF-8">
+        <div>
+          <input required type="text" id="nome" name="nome" placeholder="Nome*" size="35" />
+        </div>
+
+        <div>          
+          <input required type="email" id="mail" name="mail" placeholder="E-mail*" size="35"/>
+        </div>
+
+        <div>         
+          <input required type="text" id="telefone" name="telefone" placeholder="Telefone*" maxlength="12" size="35"/>
+        </div>
+                
+        <div>         
+          <input required type="text" id="cpf" name="cpf" placeholder="CPF | RA*" maxlength="12" size="35"/>
+        </div>
+
+        <div>
+        <p class="campo">Todos os campos marcados com <span style="color: red;">*</span> são obrigatórios.</p>
+          <input class="button" value="ENVIAR" id="bloc" type="submit" name="sendmailform"/>
+        </div>
+            </form>
+        </div>    
+    </div>
+    </div>
+    </div>
 
 </body>
 </html>
