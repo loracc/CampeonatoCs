@@ -6,7 +6,7 @@ $(window).on("scroll", function () {
     }
 });
 
-$('.nav-link').click(function (evt) {
+$('.link').click(function (evt) {
     evt.preventDefault();
     let href = $(this).attr('href');
     $('html, body').animate({

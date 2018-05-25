@@ -1,6 +1,7 @@
 body,
 hmtl {
     height: 100vh;
+    background-color: #000;
 }
 
 section {
@@ -8,43 +9,36 @@ section {
 }
 
 .site-header {
+    position: relative;
     display: flex;
     justify-content: center;
     height: 100%;
-    background-image: url('../images/win.jpg');
+    /* background-image: url('../images/win.jpg');
     background-size: 100% auto;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
-/* .site-header::before {
+.site-header::after {
     content: "";
+    display: block;
     position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0.5;
-    background-position: center;
     background-image: url('../images/win.jpg');
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
+    opacity: 0.5;
+    z-index: -1;
 }
 
-.site-header .typewriter {
-    overflow: auto;
-    position: relative;
-} */
-
 .info-banner {
-    /* background-image: url('../images/competition.jpg');
-    background-size: 100% auto;
-    background-position: center; */
     background-color: #f8f8f8;
     color: #000;
 }
 
-.info-banner i{
+.info-banner i {
     font-size: 3em;
 }
 
@@ -54,6 +48,10 @@ section {
 }
 
 .container {
-    padding-top:35px;
+    padding-top: 35px;
     padding-bottom: 35px;
+}
+
+footer a {
+    color: #fff;
 }
