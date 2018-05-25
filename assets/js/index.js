@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    $('#telefoneInput').mask('(00) 0 0000-0000');
 });
 
 $(window).on("scroll", function () {
