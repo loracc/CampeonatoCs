@@ -8,18 +8,20 @@ section {
     background: #fff;
 }
 
-.typewriter h1 {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
-    margin-bottom: 10px;
-    padding-right: 10px;
+@media (min-width: 980px) {
+    .typewriter h1 {
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em;
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
 }
 
 .site-header {
@@ -27,10 +29,6 @@ section {
     display: flex;
     justify-content: center;
     height: 100%;
-    /* background-image: url('../images/win.jpg');
-    background-size: 100% auto;
-    background-position: center;
-    background-attachment: fixed; */
 }
 
 .site-header::after {
