@@ -1,3 +1,7 @@
+$(document).ready(function () {
+
+});
+
 $(window).on("scroll", function () {
     if ($(window).scrollTop() > (window.innerHeight - $('#menu').innerHeight())) {
         $("#menu").addClass("bg-dark");

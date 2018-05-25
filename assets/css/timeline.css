@@ -6,7 +6,8 @@
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: #000;
+    background: rgb(57, 85, 245);
+    color: #fff;
 }
 
 .timeline ul li::after {
